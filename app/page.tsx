@@ -2,6 +2,7 @@ import GoogleAd from '@/components/GoogleAd';
 import Playground from '@/components/Playground';
 import type { Metadata } from 'next';
 import Script from 'next/script';
+import { Analytics } from '@vercel/analytics/next';
 
 export const metadata: Metadata = {
   title: 'Flexbox & Grid Playground',
@@ -50,6 +51,7 @@ export default function Page() {
           <Playground />
         </div>
         <GoogleAd />
+        <Analytics />
       </main>
     </>
   );
