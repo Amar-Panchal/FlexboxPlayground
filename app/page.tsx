@@ -33,13 +33,6 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <>
-      {' '}
-      <Script
-        async
-        strategy='afterInteractive'
-        src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7606956576311759'
-        crossOrigin='anonymous'
-      />
       <main className='min-h-screen bg-gradient-to-br from-slate-50 to-slate-100 p-6'>
         {/* Header - Server Rendered */}
         <header className='mb-4'>

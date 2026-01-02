@@ -6,20 +6,22 @@ export default function GoogleAd() {
   useEffect(() => {
     try {
       // @ts-ignore
-      (adsbygoogle = window.adsbygoogle || []).push({});
-    } catch (e) {
-      console.error(e);
+      (window.adsbygoogle = window.adsbygoogle || []).push({});
+    } catch (err) {
+      console.warn('AdSense error', err);
     }
   }, []);
 
   return (
-    <ins
-      className='adsbygoogle'
-      style={{ display: 'block' }}
-      data-ad-client='ca-pub-XXXXXX'
-      data-ad-slot='1234567890'
-      data-ad-format='auto'
-      data-full-width-responsive='true'
-    />
+    <div className='my-6 flex justify-center'>
+      <ins
+        className='adsbygoogle'
+        style={{ display: 'block' }}
+        data-ad-client='ca-pub-7606956576311759'
+        data-ad-slot='8245573443'
+        data-ad-format='auto'
+        data-full-width-responsive='true'
+      />
+    </div>
   );
 }
