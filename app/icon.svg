@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#0ea5e9"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect x="4" y="4" width="56" height="56" rx="12" fill="url(#g)"/>
+
+  <!-- Grid -->
+  <rect x="14" y="14" width="14" height="14" fill="white" opacity="0.9"/>
+  <rect x="36" y="14" width="14" height="14" fill="white" opacity="0.9"/>
+  <rect x="14" y="36" width="36" height="14" fill="white" opacity="0.9"/>
+
+  <!-- Flex arrows -->
+  <path d="M20 30 L28 30 L25 27 M28 30 L25 33" stroke="#fff" stroke-width="2" fill="none"/>
+</svg>
