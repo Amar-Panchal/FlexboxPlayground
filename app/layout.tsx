@@ -23,7 +23,10 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
-
+verification: {
+      google: 'rr2dfq3TWwpnNBHBcyDm27FbOg0J0bn80kEyrxCcwWI',
+        },
+}
   other: {
     'google-adsense-account': 'ca-pub-7606956576311759',
   },
@@ -47,7 +50,10 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <head>
-        {/* ✅ MUST be beforeInteractive */}
+        {/* ✅ MUST be beforeInteractive */}<meta
+                  name="google-site-verification"
+                            content="rr2dfq3TWwpnNBHBcyDm27FbOg0J0bn80kEyrxCcwWI"
+                                    />
         <Script
           async
           strategy='beforeInteractive'
