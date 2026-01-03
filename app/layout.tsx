@@ -26,7 +26,6 @@ export const metadata: Metadata = {
 verification: {
       google: 'rr2dfq3TWwpnNBHBcyDm27FbOg0J0bn80kEyrxCcwWI',
         },
-},
   other: {
     'google-adsense-account': 'ca-pub-7606956576311759',
   },
