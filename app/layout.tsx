@@ -23,9 +23,11 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
-verification: {
+    verification: {
       google: 'rr2dfq3TWwpnNBHBcyDm27FbOg0J0bn80kEyrxCcwWI',
         },
+
+  
   other: {
     'google-adsense-account': 'ca-pub-7606956576311759',
   },
