@@ -19,15 +19,42 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'Amar Panchal' }],
   creator: 'Amar Panchal',
+
   robots: {
     index: true,
     follow: true,
   },
-    verification: {
-      google: 'rr2dfq3TWwpnNBHBcyDm27FbOg0J0bn80kEyrxCcwWI',
-        },
 
-  
+  verification: {
+    google: 'rr2dfq3TWwpnNBHBcyDm27FbOg0J0bn80kEyrxCcwWI',
+  },
+
+  openGraph: {
+    title: 'Flexbox & Grid Playground',
+    description:
+      'Learn CSS Flexbox and Grid visually using an interactive playground.',
+    url: 'https://flexbox-grid-playground.vercel.app/',
+    siteName: 'Flexbox Grid Playground',
+    images: [
+      {
+        url: 'https://flexbox-grid-playground.vercel.app/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'Flexbox and Grid Playground Preview',
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
+
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Flexbox & Grid Playground',
+    description:
+      'Interactive Flexbox & CSS Grid playground to learn layouts visually.',
+    images: ['https://flexbox-grid-playground.vercel.app/og-image.png'],
+  },
+
   other: {
     'google-adsense-account': 'ca-pub-7606956576311759',
   },
